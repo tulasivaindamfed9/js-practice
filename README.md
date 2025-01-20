@@ -1,1 +1,1 @@
-# js-practice
+# java script started from day6
