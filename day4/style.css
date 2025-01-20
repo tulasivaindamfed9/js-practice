@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: darkred;
+
+}
+
+/* Apply the same size to all images with the class "resize" */
+.resize {
+    width: 200px;  /* Set the width */
+    height: 200px; /* Set the height */
+    object-fit: cover; /* Ensures the image fits well inside the box */
+    
+}
+
+/* faculy styling */
+.h3sty{
+    background-color:darkblue;
+    color: white;
+    border-radius:10px ;
+    text-align: center;
+}
+.customcss{
+    border: 30px ;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+/* food website styling */
+/* location and food order styling */
+.customFW{
+    color: white;
+    font-size: 40px;
+}
+
+/* row styling */
+.rowFW{
+   background-color: white;
+   color: gray;
+   border-radius: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;border-radius: 20px;
+}
+

@@ -1,0 +1,60 @@
+.text-centre{
+    border: 2px solid red;
+    padding: 20px 40px 20px 40px;
+    background-color: rebeccapurple;
+    margin: 40px;
+}
+
+/* nav bar styling */
+.navsty{
+    background-color: darkblue;
+    color: white;
+    margin: 15px;
+    /* border: red; */
+    border-radius: 10px;
+}
+
+
+h2{
+    color: darkblue;
+    text-decoration-line: underline;
+    font-size: 40px
+}
+
+.listyle{
+    font-style: italic;
+
+}
+
+h3{
+    color: chocolate;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+
+
+
+/* Apply the same size to all images with the class "resize" */
+.resize {
+    width: 200px;  /* Set the width */
+    height: 200px; /* Set the height */
+    object-fit: cover; /* Ensures the image fits well inside the box */
+    
+}
+
+
+/* applying the style to container */
+.container{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: white;
+}
+
+
+
+
+

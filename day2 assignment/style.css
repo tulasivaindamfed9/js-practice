@@ -1,0 +1,55 @@
+
+
+/* day2.html styling */
+.buttonstyle{
+    background-color: azure;
+    color: darkblue;
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+
+  .divstyle{
+    background-color: beige;
+    color: deeppink;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px;
+    border: 2px solid pink;
+    margin: 5px;
+  }
+
+
+  p{
+    font-size: 20px;
+  }
+
+  li{
+    font-size:25px ;
+    font-weight: 500;
+    color: brown;
+  }
+
+  a{
+    background-color: azure;
+    color: darkblue;
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+
+/* day2 NewsArticlepage styling */
+  .bstyle{
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px;
+    font-weight: 600;
+  }
+
+  .dstyle{
+    padding: 15px;
+    border: 2px;
+    margin: 25px;
+  }
