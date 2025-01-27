@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Displaying movies on web page</title>
+</head>
+<body>
+    <div id="movieDiv"></div>
+    <script src="moviefile.js"></script>
+    <script>
+        const movies=document.getElementById("movieDiv");
+
+        //dispalying movies on web page
+        movies.innerHTML =
+          `<h2>MovieName: ${movie1.title}</h2>
+           <p>Time: ${movie1.time}</p>
+           <p>seatsAvailable: ${movie1.seats}</p>
+
+           <h2>MovieName: ${movie2.title}</h2>
+           <p>Time: ${movie2.time}</p>
+           <p>seatsAvailable: ${movie2.seats}</p>
+          `;
+
+    </script>
+</body>
+</html>
