@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>variables,functions momory allocation</title>
+</head>
+<body>
+    <h2>variables,functions momory allocation</h2>
+    <script>
+        // checking the variables in global and block scope
+        var name="tulasi";
+        {
+            var lastName="vaindam";
+            let age=32;
+            const gender="female";
+        }
+        console.log(lastName);//vaindam
+        // console.log(age);//throws error
+
+        const nationality="indian";
+        // nationality="american";//throws error
+
+        // stack and heap memory
+        // stack memory applies for primitive data types
+        let a=1;
+        let b=a;//stores a copy "a"
+        a=3;//reassign a to 3
+        console.log(a);//prints 3
+        console.log(b);//prints 1
+
+        // heap memory applies for non-primitive data types
+        let obj1={name:"tulasi", location:"AP"};
+        let obj2=obj1;//obj1 shares data with obj2
+        obj2.name="vaindam"; //both obj1 and obj2 has same values
+        console.log(obj1);
+        console.log(obj2); //name:vaindam,  location:AP
+
+
+
+
+        // creating functions
+        function userDetails (user1){
+             let userId=Math.random();
+             return{user1, userId};
+            //  return(user1, userId); returns only the second value ignoring the user1 as js uses {} for data to visualize
+        }
+        console.log(userDetails("ram"));
+        console.log(userDetails("lakshman"));
+
+        // understanding deep and shallow copy.These two copies apply for heap memory(non-primitive data types)
+        // shallow copy refers to same memory location
+        // deep copy refers to independent memory locations
+
+        // eg for shallow copy
+        let object1={mat:100, sci:90};
+        let object2=object1; //these two objects refer to same location
+
+        let object3={phy:30, chem:40};
+        let object4=JSON.parse(JSON.stringify(object3)); //object3 and 4 are independently allocated different memories
+        console.log(object1);
+        console.log(object2);
+        console.log(object3);
+        console.log(object4);
+
+
+    </script>
+</body>
+</html>
