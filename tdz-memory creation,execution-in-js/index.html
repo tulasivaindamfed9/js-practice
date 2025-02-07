@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Memory allocation</title>
+</head>
+<body>
+    <h1>Let's learn how the browser understands the type of data storage</h1>
+    <p>Java Script executes code in two phases.. memory creation phase and execution phase.<br>There are 3 ways that we store the data "VAR, LET, CONST".<br>
+    Let's understand one-by-one.</p>
+    <p>console.log(a) --gives output as undefined<br>var a=10<br>console.log(a) --gives 10 as output</p>
+    <p>console.log(b) --Throws error<br>let b=20<br>console.log(b) </p>
+</body>
+<script>
+    console.log(a); //undefined
+    var a=10; //undefined
+    console.log(a);//10
+
+    console.log(b) //error and won't go to the next step ,as here b stored in {} "here comes the temperal danger zone TDZ"
+    let b=20; 
+    console.log(b); 
+
+    let d=40;//undefined
+    consol.log(b);//40
+
+    const c=30;
+    console.log(c);//30
+    c=40;
+    console.log(c);//error
+</script>
+</html>
